@@ -177,9 +177,9 @@ python main.py
 ## 👨‍💻 Author
 
 **Debasish Pradhan**  
-📧 [debasishpra314@gmail.com](mailto:your.email@example.com)  
+📧 [debasishpra314@gmail.com](mailto:Debasish)  
 🎓 MSc Mathematics & Statistics  
-🔗 [https://www.linkedin.com/in/debasish-pradhan-609399237/](#) • [https://github.com/Dev-debasish-09](#)
+🔗 [LinkdIN](https://www.linkedin.com/in/debasish-pradhan-609399237/) • [GitHub](https://github.com/Dev-debasish-09)
 
 
 
