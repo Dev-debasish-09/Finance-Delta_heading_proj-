@@ -91,29 +91,55 @@ def calculate_performance_metrics(results, stock_prices):
 
 ## 📉 Mathematical Formulas Used
 
-### 1️⃣ Delta (Black–Scholes)
+Here's a cleaned up version with proper formatting that will look great on your GitHub profile:
 
-\[
-\Delta = N(d_1)
-\]
+---
 
-### 2️⃣ Gamma
+## 📊 Black-Scholes Greeks & Portfolio Metrics
 
-\[
-\Gamma = \frac{N'(d_1)}{S \sigma \sqrt{T}}
-\]
+### 1️⃣ Delta (Δ)
+Measures the rate of change of the option price with respect to changes in the underlying asset's price.
 
-### 3️⃣ Option Price Sensitivity
+```
+Δ = N(d₁)
+```
 
-\[
-d_1 = \frac{\ln(S/K) + (r + 0.5\sigma^2)T}{\sigma \sqrt{T}}
-\]
+### 2️⃣ Gamma (Γ)
+Measures the rate of change in Delta with respect to changes in the underlying price.
+
+```
+       N'(d₁)
+Γ = ――――――――――――
+    S × σ × √T
+```
+
+### 3️⃣ Option Price Sensitivity (d₁)
+The key input parameter for Black-Scholes calculations.
+
+```
+    ln(S/K) + (r + 0.5σ²)T
+d₁ = ――――――――――――――――――――――
+         σ × √T
+```
 
 ### 4️⃣ Portfolio P&L
+Daily Profit and Loss calculation for a portfolio.
 
-\[
-PnL = V_{t+1} - V_t
-\]
+```
+P&L = Vₜ₊₁ - Vₜ
+```
+
+---
+
+### 📝 Variable Definitions
+- **S** = Current stock price
+- **K** = Strike price
+- **T** = Time to expiration (in years)
+- **r** = Risk-free interest rate
+- **σ** = Volatility of the underlying asset
+- **N(·)** = Cumulative distribution function of standard normal distribution
+- **N'(·)** = Probability density function of standard normal distribution
+- **Vₜ** = Portfolio value at time t
 
 ---
 
@@ -177,7 +203,7 @@ python main.py
 ## 👨‍💻 Author
 
 **Debasish Pradhan**  
-📧 [debasishpra314@gmail.com](mailto:Debasish)  
+📧 [mailto:Debasish](debasishpra314@gmail.com)  
 🎓 MSc Mathematics & Statistics  
 🔗 [LinkdIN](https://www.linkedin.com/in/debasish-pradhan-609399237/) • [GitHub](https://github.com/Dev-debasish-09)
 
