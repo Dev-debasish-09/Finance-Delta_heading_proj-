@@ -16,30 +16,34 @@ It involves **adjusting the number of shares** held in the underlying stock to o
 
 #### 📘 Formula
 
+## 🔹 Delta (Δ)
+
 \[
 \Delta = \frac{\partial C}{\partial S}
 \]
 
 Where:
-* \( C \) = Option price
-* \( S \) = Stock price
-* \( \Delta \) = Sensitivity of option price to changes in stock price
 
-To hedge, you hold \( -\Delta \) shares of the stock per option.
+- \(C\) = Option price  
+- \(S\) = Stock price  
+- \(\Delta\) = Sensitivity of option price to changes in stock price  
 
----
+To hedge, you hold:
+
+\[
+-\Delta \text{ shares per option}
+\]
 
 ### 🔹 What is Gamma?
 
-**Gamma (Γ)** measures how delta changes as the stock price changes:
+## 🔹 Gamma (Γ)
+
 \[
 \Gamma = \frac{\partial^2 C}{\partial S^2}
 \]
 
-Gamma represents the **curvature** (convexity) of the option's price relative to the stock price.
-A high gamma means **delta changes quickly**, so frequent rebalancing is needed.
-
----
+Gamma represents the curvature (convexity) of the option price relative to the stock price.  
+High gamma → delta changes quickly → frequent rebalancing needed.
 
 ## 📊 Implementation
 
